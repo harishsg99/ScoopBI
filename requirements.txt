@@ -4,3 +4,4 @@ pandas
 nl4dv
 json
 pathlib
+gunicorn
