@@ -9,6 +9,7 @@ import json
 from os.path import join, dirname, realpath
 from pathlib import Path
 import subprocess
+import en_core_web_sm
 
 MAX_FILE_SIZE_MB = 1000
 ALLOWED_EXTENSIONS = set(['txt', 'csv', 'xlsx'])
