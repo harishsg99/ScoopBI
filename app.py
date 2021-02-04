@@ -8,6 +8,7 @@ from nl4dv import NL4DV
 import json
 from os.path import join, dirname, realpath
 from pathlib import Path
+import subprocess
 
 MAX_FILE_SIZE_MB = 1000
 ALLOWED_EXTENSIONS = set(['txt', 'csv', 'xlsx'])
@@ -61,3 +62,4 @@ def analyze_query():
 
 if __name__ == '__main__':
     app.run(host='127.0.0.1', port=8088, debug=True)
+    subprocess.call("python -m spacy download en_core_web_sm",shell=True)
