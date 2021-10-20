@@ -1,6 +1,9 @@
 # ScoopBI
-A no code BI Backend working!!! HEY
-@Working
+A No Code BI tool aims to visualize dataset with just single of English query
 
-@#$%^&*()____
-https://github.com/Shahzayb/mern-google-login
+# TechStack
+1. python
+2. Flask
+3. HTML
+4. NlTK
+
